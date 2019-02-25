@@ -1,0 +1,20 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cache {
+	private int id, size;
+	private List<Integer> videoList;
+	private List<Connection> connectionList;
+	
+	public Cache(int id, int size, List<Connection> connectionList) {
+		this.id = id;
+		this.size = size;
+		this.videoList = new ArrayList<Integer>();
+		this.connectionList = connectionList;
+	}
+	
+	
+	
+}

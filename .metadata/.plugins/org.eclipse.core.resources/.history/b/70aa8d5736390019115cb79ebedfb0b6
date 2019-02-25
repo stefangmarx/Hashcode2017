@@ -1,0 +1,28 @@
+package model;
+
+public class Connection {
+	private int idEnpoint, latency;
+
+	public Connection(int idEnpoint, int latency) {
+		this.idEnpoint = idEnpoint;
+		this.latency = latency;
+	}
+
+	public int getIdEnpoint() {
+		return idEnpoint;
+	}
+
+	public void setIdEnpoint(int idEnpoint) {
+		this.idEnpoint = idEnpoint;
+	}
+
+	public int getLatency() {
+		return latency;
+	}
+
+	public void setLatency(int latency) {
+		this.latency = latency;
+	}
+	
+	
+}

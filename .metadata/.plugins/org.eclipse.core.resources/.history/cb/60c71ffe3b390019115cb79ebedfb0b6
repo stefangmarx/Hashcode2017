@@ -1,0 +1,49 @@
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import model.Cache;
+import model.Connection;
+import model.RequestItem;
+
+public class Main {
+	
+	private static List<Cache> cacheList;
+	private static List<Connection> connectionList;
+	private static List<RequestItem> requestItemList;
+	private static int numberVideos, numberEndpoints, numberRequests, numberCaches, cacheSize;
+	
+	private String inputFileName = "", outputFilename = "";
+	
+	public static void main(String[] args) {
+		// Read file.
+		readFile();
+		
+		// Sort elements of connection list by latency ASC.
+		Collections.sort(connectionList, new Comparator<Cache>() {
+	        public int compare(Cache c1, Cache c2) {
+
+	            int d1 = ((int) o1.get);
+	            int d2 = ((int) o2).getDensity();
+	            int sComp = d1.compareTo(d2);
+
+	            if (sComp != 0) {
+	               return -1 * sComp;
+	            };
+	        }
+		});
+		
+		// Instantiate requestList.
+		
+		// Sort requestList by amountVideos * datacenterLatency / videoSize.
+		
+		// Algorithm.
+		
+		// Write file.
+	}
+	
+	private static void readFile() {
+		
+	}
+
+}
